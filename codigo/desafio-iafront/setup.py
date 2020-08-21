@@ -21,7 +21,8 @@ setup(
         'console_scripts': [
             'prepara-pedidos=desafio_iafront.jobs.job_pedidos.pedidos:main',
             'escala-dados=desafio_iafront.jobs.escala_pedidos.job_scaler:main',
-            'standard-plots=desafio_iafront.jobs.graphics.job_graphics:main'
+            'standard-plots=desafio_iafront.jobs.graphics.job_graphics:main',
+            'scaled-plots=desafio_iafront.jobs.graphics.job_scaled_graphics:main'
         ]
     }
 )
